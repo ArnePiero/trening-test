@@ -1,7 +1,7 @@
 
-h1 {
+main {
   color:white;
-  background-color: gray;
+  background-color: rgb(32, 32, 32);
   padding-left :50%;
   padding-right:50%;
 }
@@ -10,11 +10,15 @@ body {
   background-color: black;
 }
 
-a{
-  color: white;
-  padding:20px 20px;
+a:link, a:visited{
+background-color: gray;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
 }
 
 a:hover {
-  color: green;
+  color: black;
 }
