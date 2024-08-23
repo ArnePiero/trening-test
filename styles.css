@@ -1,23 +1,25 @@
-
 main {
   color:white;
   background-color: rgb(32, 32, 32);
   text-align: center;
-  line-height: 75px;
+  line-height: 50px;
+  border: solid;
+  border-color: rgb(25, 25, 25);
 }
 
 body {
   background-color: black;
 }
 
+.pgt1 {
+  color: white;
+  font-size: 20px;
+}
+
 a:link, a:visited {
 color: white;
 text-decoration: none;
 display: inline-block;
-}
-
-a:hover {
-  color: black;
 }
 
 .buten {
@@ -30,8 +32,16 @@ a:hover {
 
 .buten > a {
   background-color: gray;
-  width: 400px;
+  width: 250px;
   margin: 5px;
   line-height: 75px;
-  font-size: 30px;
+  font-size: 25px;
+  border: solid; 
+  border-color: rgb(100, 100, 100);
+  border-width: 7px;
+}
+
+a:hover {
+  color: black;
+  background-color: rgb(100, 100, 100)
 }
